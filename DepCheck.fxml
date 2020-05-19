@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.DepCheck_control">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="66.0" layoutY="34.0" text="Dependents" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="yes" layoutX="198.0" layoutY="184.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="54.0" text="Yes" />
+      <CheckBox fx:id="no" layoutX="356.0" layoutY="184.0" mnemonicParsing="false" text="No" />
+      <Button fx:id="pushButton" layoutX="274.0" layoutY="310.0" mnemonicParsing="false" text="Next" />
+   </children>
+</fx:root>
